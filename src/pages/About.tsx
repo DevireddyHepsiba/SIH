@@ -9,6 +9,8 @@ const About = () => {
       title: "Mission-Driven",
       description: "We're committed to bridging the gap between education and career success."
     },
+
+    
     {
       icon: Users,
       title: "Community-First",
