@@ -39,28 +39,34 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-4xl mx-auto space-y-6">
           {features.map((feature, index) => (
             <div 
               key={feature.title}
-              className="feature-card p-8 rounded-xl"
-              style={{ animationDelay: `${index * 0.2}s` }}
+              className="group feature-card p-8 rounded-2xl bg-card/40 backdrop-blur-sm border border-border/50 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10 animate-slide-up"
+              style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className={`inline-flex p-3 rounded-lg bg-gradient-to-br from-${feature.color.split('-')[1]}/20 to-${feature.color.split('-')[1]}/10 mb-6`}>
-                <feature.icon className={`w-6 h-6 ${feature.color}`} />
+              <div className="flex items-start gap-8">
+                <div className={`flex-shrink-0 p-4 rounded-xl bg-gradient-to-br from-${feature.color.split('-')[1]}/20 to-${feature.color.split('-')[1]}/10 group-hover:scale-110 transition-transform duration-300`}>
+                  <feature.icon className={`w-8 h-8 ${feature.color}`} />
+                </div>
+                
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors duration-300">
+                    {feature.title}
+                  </h3>
+                  <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
+                    {feature.description}
+                  </p>
+                  
+                  <Button asChild variant="outline" size="lg" className="group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300">
+                    <Link to={feature.link} className="flex items-center space-x-2">
+                      <span className="font-semibold">Explore {feature.title}</span>
+                      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
+                    </Link>
+                  </Button>
+                </div>
               </div>
-              
-              <h3 className="text-xl font-semibold mb-4">{feature.title}</h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                {feature.description}
-              </p>
-              
-              <Button asChild variant="ghost" className="group">
-                <Link to={feature.link} className="flex items-center space-x-2">
-                  <span>Explore</span>
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              </Button>
             </div>
           ))}
         </div>
