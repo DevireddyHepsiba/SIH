@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
 
-## Project info
 
-**URL**: https://lovable.dev/projects/69605e7f-29d4-4643-87a8-629eddf7853d
+## 📘 Project Overview
 
-## How can I edit this code?
+### 🎯 What’s the Problem?
 
-There are several ways of editing your application.
+Most colleges and universities don’t have a proper system to manage their alumni. Once students graduate, their contact info, career updates, and academic history often get lost or spread across different platforms like WhatsApp or outdated email lists.
 
-**Use Lovable**
+This makes it hard to:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/69605e7f-29d4-4643-87a8-629eddf7853d) and start prompting.
+* Stay in touch with alumni
+* Involve them in events or mentoring
+* Raise funds
+* Build a strong alumni network
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### 💡 Why This Matters
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Solving this problem can:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Make alumni feel more connected to their institution
+* Open doors for mentoring, internships, and networking
+* Help with event planning and communication
+* Improve fundraising efforts
+* Strengthen the institution's reputation and community
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### ✅ What This Project Does
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project aims to build a **centralized alumni management platform** with:
 
-# Step 3: Install the necessary dependencies.
-npm i
+* A secure database to store alumni info
+* Tools for communication and event management
+* Career tracking and mentorship features
+* A simple interface for both admins and alumni
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### 👥 Who Benefits
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* **Alumni** – Stay connected and give back
+* **Current Students** – Gain mentors, internships, and career guidance
+* **Faculty/Admins** – Manage alumni data and run programs
+* **College Management** – Improve engagement and reputation
+* **Recruiters** – Discover talent through verified alumni networks
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/69605e7f-29d4-4643-87a8-629eddf7853d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
