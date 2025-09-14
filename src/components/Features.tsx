@@ -8,21 +8,21 @@ const Features = () => {
       icon: Briefcase,
       title: "Job Portal",
       description: "Access thousands of career opportunities from top companies. Filter by location, experience, and industry to find your perfect match.",
-      link: "/career/jobs",
+      link: "/career",
       color: "text-primary"
     },
     {
       icon: Users,
       title: "My Applications",
       description: "Track your application status, manage deadlines, and get insights on your career journey. Stay organized and never miss an opportunity.",
-      link: "/career/applications",
+      link: "/career",
       color: "text-accent"
     },
     {
       icon: Trophy,
       title: "Success Stories",
       description: "Get inspired by alumni achievements and career transformations. Learn from real experiences and chart your own path to success.",
-      link: "/career/success-stories",
+      link: "/career",
       color: "text-success"
     }
   ];
