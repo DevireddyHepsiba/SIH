@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import CareerPortal from "./pages/CareerPortal";
 import NotFound from "./pages/NotFound";
+import Hello from "./API";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <Hello />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
