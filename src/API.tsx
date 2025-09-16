@@ -13,8 +13,8 @@ const hello : React.FC=()=>{
             });
     }, []);
     return (
-        <div>
-            <h1>{message}</h1>
+        <div className='text-center p-4 bg-accent/10'>
+            <h1 className=''>{message}</h1>
         </div>
     );
 }
